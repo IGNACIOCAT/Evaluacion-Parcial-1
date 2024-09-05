@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<div class="container">
+  <h1>Bienvenido a </h1>
+  <ion-input label="Usuario" label-placement="floating" fill="outline" placeholder="Ingrese usuario"></ion-input>
+  <br>
+  <ion-input type='password' label="Contraseña" label-placement="floating" fill="outline" placeholder="Ingrese contraseñass">
+  </ion-input>
+  <br>
+  <ion-button class="btn-login" expand="block">Login</ion-button>
+  <br>
+  <a [routerLink]="/recuperar-contrasena">Recuperar contraseña</a>
+</div>
+</ion-content>
